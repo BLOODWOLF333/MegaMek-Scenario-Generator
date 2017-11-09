@@ -189,7 +189,7 @@
 
     Private Sub cbPlanets_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbPlanets.SelectedIndexChanged
 
-        Planets.listPlanets() 'nope wants me to call an object here
+        'Planets.listPlanets() 'nope wants me to call an object here
 
     End Sub
 

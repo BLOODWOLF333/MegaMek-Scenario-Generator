@@ -30,7 +30,7 @@ Public Class Planets
             Dim temperature = element.<temperature>.Value
             Dim satellite = element.<satellite>.Value
             Dim axisOrbit = element.<axisOrbit>.Value
-            listPlanets(element) = New Planet(name, pressure, gravity, percentWater, temperature, satellite, axisOrbit)
+            listPlanets.Add(New Planet(name, pressure, gravity, percentWater, temperature, satellite, axisOrbit))
 
         Next
 
