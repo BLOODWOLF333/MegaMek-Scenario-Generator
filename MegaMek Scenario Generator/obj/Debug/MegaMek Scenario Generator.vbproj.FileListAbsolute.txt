@@ -1,0 +1,12 @@
+C:\Users\CATLIN\source\repos\MegaMek Scenario Generator\MegaMek Scenario Generator\obj\Debug\MegaMek Scenario Generator.vbprojResolveAssemblyReference.cache
+C:\Users\CATLIN\source\repos\MegaMek Scenario Generator\MegaMek Scenario Generator\obj\Debug\MegaMek_Scenario_Generator.Generator.resources
+C:\Users\CATLIN\source\repos\MegaMek Scenario Generator\MegaMek Scenario Generator\obj\Debug\MegaMek_Scenario_Generator.Resources.resources
+C:\Users\CATLIN\source\repos\MegaMek Scenario Generator\MegaMek Scenario Generator\obj\Debug\MegaMek Scenario Generator.vbproj.GenerateResource.Cache
+C:\Users\CATLIN\source\repos\MegaMek Scenario Generator\MegaMek Scenario Generator\obj\Debug\MegaMek Scenario Generator.vbproj.CoreCompileInputs.cache
+C:\Users\CATLIN\source\repos\MegaMek Scenario Generator\MegaMek Scenario Generator\bin\Debug\MegaMek Scenario Generator.exe.config
+C:\Users\CATLIN\source\repos\MegaMek Scenario Generator\MegaMek Scenario Generator\bin\Debug\MegaMek Scenario Generator.exe
+C:\Users\CATLIN\source\repos\MegaMek Scenario Generator\MegaMek Scenario Generator\bin\Debug\MegaMek Scenario Generator.pdb
+C:\Users\CATLIN\source\repos\MegaMek Scenario Generator\MegaMek Scenario Generator\bin\Debug\MegaMek Scenario Generator.xml
+C:\Users\CATLIN\source\repos\MegaMek Scenario Generator\MegaMek Scenario Generator\obj\Debug\MegaMek Scenario Generator.exe
+C:\Users\CATLIN\source\repos\MegaMek Scenario Generator\MegaMek Scenario Generator\obj\Debug\MegaMek Scenario Generator.xml
+C:\Users\CATLIN\source\repos\MegaMek Scenario Generator\MegaMek Scenario Generator\obj\Debug\MegaMek Scenario Generator.pdb

@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Objectives" xml:space="preserve">
+    <value>Destroy OPFOR, Destroy Defenders, Destroy Attackers, Politician, Corporate President, Base Commander, Supply Caches, Turrets, Commander's Convoy, Supply Convoy, Military Reinforcements, High Value Personnel, Allied Military Unit, Politician's Convoy, Prisoners of War, Ammo Caches, Weapon Caches, Land and Defend Dropship(s), Flee Off Opposite Map Edge</value>
+    <comment>0 To 18</comment>
+  </data>
+  <data name="typeObjective" xml:space="preserve">
+    <value>Personnel, Supply, Military</value>
+    <comment>0 To 2</comment>
+  </data>
+  <data name="civilScenarios" xml:space="preserve">
+    <value>Extraction Raid, Target Defend, Target Raid, Location Defend, Capture Raid</value>
+    <comment>0 To 4</comment>
+  </data>
+  <data name="Scenarios" xml:space="preserve">
+    <value>Extraction Raid, Capture Intercept, Target Escort, Target Intercept, Target Defend, Target Raid, Location Defend, Capture Raid, Patrol, Search &amp; Destroy, Cadre Duty, Uncontested Landing, Assault Drop, Low Atmosphere Battle, Space Battle</value>
+    <comment>0 To 14</comment>
+  </data>
+  <data name="typeCivilization" xml:space="preserve">
+    <value>Residential, Industrial, Military Base</value>
+    <comment>0 To 2</comment>
+  </data>
+  <data name="Special" xml:space="preserve">
+    <value>Planet Arrival,  And Then Withdraw,  Escort to Opposite Map Edge, 1/3 </value>
+    <comment>0 To 3</comment>
+  </data>
+  <data name="Misc" xml:space="preserve">
+    <value>Error Mismatch, None, Yes, No</value>
+    <comment>0 To 3</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Images\buttonNormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Images\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lblDGLG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Images\lblDGLG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lblDRLR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Images\lblDRLR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lblLGDG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Images\lblLGDG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lblLRDR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Images\lblLRDR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lblOY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Images\lblOY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lblYO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Images\lblYO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Labels" xml:space="preserve">
+    <value>Mission, Scenario, Intensity, Objective, Faction, Size, Rating, Start, Special, Commanding Officer, Senior Enlisted Advisor, Executive Officer, Operations Chief, Support, Planet, Axis/Orbit, Season, Moons, Gravity, Atmosphere, EQ Temp, Surface Water, Latitude, Longitude, Theme, Terrain, Temp, Light, Weather, Wind, Blowing Sand, Fog, EMI, Map Size</value>
+    <comment>0 To 32</comment>
+  </data>
+  <data name="Missions" xml:space="preserve">
+    <value>Guerrilla, Diversionary Raid, Extraction Raid, Objective Raid, Recon Raid, Planetary Assault, Relief Duty, Security Duty, Pirate Hunting, Riot Duty, Garrison Duty, Cadre Duty, Planetary Entry</value>
+    <comment>0 To 12</comment>
+  </data>
+  <data name="Factions" xml:space="preserve">
+    <value>Inner Sphere, Clan</value>
+    <comment>0 To 1</comment>
+  </data>
+  <data name="Rating" xml:space="preserve">
+    <value>F, D, C, B, A</value>
+    <comment>0 To 4</comment>
+  </data>
+  <data name="sizeClan" xml:space="preserve">
+    <value>Star, Binary, Nova, Trinary, 2 Trinaries, Cluster, 2 Clusters, Galaxy</value>
+    <comment>0 To 7</comment>
+  </data>
+  <data name="sizeInnerSphere" xml:space="preserve">
+    <value>Lance, 2 Lances, Company, 2 Companies, Battalion, 2 Battalions, Regiment</value>
+    <comment>0 To 6</comment>
+  </data>
+  <data name="startLocations" xml:space="preserve">
+    <value>NW, N, NE, W, CTR, E, SW, S, SE, Edge</value>
+    <comment>0 To 9</comment>
+  </data>
+  <data name="Atmospheres" xml:space="preserve">
+    <value>Vacuum, Trace, Thin, Standard, High, Very High</value>
+    <comment>0 To 5</comment>
+  </data>
+  <data name="Climates" xml:space="preserve">
+    <value>Arctic, Temperate, Tropical</value>
+    <comment>0 To 2</comment>
+  </data>
+  <data name="Elevations" xml:space="preserve">
+    <value>Flats, Hills, Cliffs, Mountain</value>
+    <comment>0 To 3</comment>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Plains, Woodland, Forest, Urban</value>
+    <comment>0 To 3</comment>
+  </data>
+  <data name="Fog" xml:space="preserve">
+    <value>None, Light Fog, Heavy Fog</value>
+    <comment>0 To 2</comment>
+  </data>
+  <data name="Latitudes" xml:space="preserve">
+    <value>South, North, Equator</value>
+    <comment>0 To 2</comment>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>Daylight, Dusk/Dawn, Full Moon Night, Moonless Night</value>
+    <comment>0 To 3</comment>
+  </data>
+  <data name="Longitudes" xml:space="preserve">
+    <value>West, East, Prime Meridian</value>
+    <comment>0 To 2</comment>
+  </data>
+  <data name="Rain" xml:space="preserve">
+    <value>Clear, Light Rain, Moderate Rain, Heavy Rain, Gusting Rain, Torrential Downpour</value>
+    <comment>0 To 5</comment>
+  </data>
+  <data name="Seasons" xml:space="preserve">
+    <value>Spring, Fall, Summer, Winter</value>
+    <comment>0 To 3</comment>
+  </data>
+  <data name="Snow" xml:space="preserve">
+    <value>Clear, Light Snow Fall, Moderate Snow Fall, Sleet, Snow Flurries, Heavy Snow Fall, Ice Storm, Blizzard</value>
+    <comment>0 To 7</comment>
+  </data>
+  <data name="Themes" xml:space="preserve">
+    <value>grass, tropical, snow, volcano, lunar, mars, space</value>
+    <comment>0 To 6</comment>
+  </data>
+  <data name="Wind" xml:space="preserve">
+    <value>Calm, Light Gale, Moderate Gale, Strong Gale, Storm, Tornado F1-F3, Tornado F4+</value>
+    <comment>0 To 6</comment>
+  </data>
+  <data name="AxisOrbit" xml:space="preserve">
+    <value>Tilted, Not Tilted, Circular, Elliptical</value>
+  </data>
+</root>
