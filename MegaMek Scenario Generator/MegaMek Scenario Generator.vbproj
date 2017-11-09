@@ -130,32 +130,22 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Images\buttonNormal.png" />
+    <Folder Include="Planets\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Images\background.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Images\lblDGLG.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Images\lblDRLR.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Images\lblLGDG.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Images\lblLRDR.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Images\lblOY.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Images\lblYO.png" />
-  </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <Content Include="bin\Planets\planets.xml" />
+    <Content Include="Images\background.png" />
+    <Content Include="Images\buttonNormal.png" />
+    <Content Include="Images\lblDGLG.png" />
+    <Content Include="Images\lblDRLR.png" />
+    <Content Include="Images\lblLGDG.png" />
+    <Content Include="Images\lblLRDR.png" />
+    <Content Include="Images\lblOY.png" />
+    <Content Include="Images\lblYO.png" />
+    <Content Include="Images\megamek.ico" />
+    <Content Include="planets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\background.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
